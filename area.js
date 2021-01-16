@@ -6,8 +6,8 @@ const getArea = () => {
     totalValidSteps += validStep //this will reduce all valid steps in one quadrant(Q1)
   }  
   
-  gridValidSteps = totalValidSteps * 4;//since cartesian grids have 4 quadrants
-  finalValidSteps = gridValidSteps + 1 ;//to account for (0,0)
+  gridValidSteps = totalValidSteps * 4; //since cartesian grids have 4 quadrants
+  finalValidSteps = gridValidSteps + 1 ; //to account for (0,0)
   
   return finalValidSteps;
 }
