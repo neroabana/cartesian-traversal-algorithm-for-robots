@@ -1,4 +1,5 @@
 const getArea = () => {
+  
   let lastValidPoint = 698; //Robot will meet first barrier at 699 on every axis in every plane
   let validStep, gridValidSteps, finalValidSteps, totalValidSteps = 0;//initialize variables  
   
