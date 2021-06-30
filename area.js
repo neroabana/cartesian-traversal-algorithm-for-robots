@@ -11,5 +11,4 @@ const getArea = () => {
   
   return finalValidSteps;
 }
-
 document.getElementById('result').innerText = getArea();
